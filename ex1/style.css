@@ -18,10 +18,10 @@ color: bisque;
 .card{
     position: relative;
     background-color: blueviolet;
-    color: blueviolet;
+    color: burlywood;
     height: 200px;
     width: 200px;
-    top:40px;
+    top:60px;
 
 }
 .badge{

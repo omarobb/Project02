@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Box Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>The Box Model</h1>
+
+  <p>Both boxes declare <code>width: 200px</code>, <code>padding: 20px</code> and <code>border: 10px</code>.</p>
+
+  <h2>content-box</h2>
+  <p>width 200px <br>
+  Total: 200 + 20 (padding) + 10 (border) = 230px</p>
+  <div class="content"></div>
+
+  <h2>border-box</h2>
+  <p>width 200px <br>
+    Total: 200px. Padding and border fit inside.</p>
+  <div class="border"></div>
+</body>
+</html>

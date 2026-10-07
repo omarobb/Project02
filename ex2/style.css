@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.Square{
+    position: relative;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+.Rectangle{
+    position: relative;
+    background-color: rgb(43, 49, 226);
+    width: 70px;
+    height: 50px;
+}
+.circle{
+    position: relative;
+    background-color: aquamarine;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.Capsule{
+    position: relative;
+    background-color: brown;
+    height: 40px;
+    width: 80px;
+    border-radius:  16px;
+}
+.Triangle{
+    position: relative;
+    background-color: beige;
+    width: 0;
+	height: 0;
+	border-left: 25px solid ;
+	border-right: 25px solid ;
+	border-bottom: 50px solid #555;;
+
+}

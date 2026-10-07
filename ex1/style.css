@@ -1,0 +1,41 @@
+body{
+background-color: black;
+color: bisque;
+}
+
+.bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: bisque;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+.card{
+    position: relative;
+    background-color: blueviolet;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+    top:40px;
+
+}
+.badge{
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    top: 0;
+}
+
+.back-to-top{
+    position: fixed;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    right: 0;
+}

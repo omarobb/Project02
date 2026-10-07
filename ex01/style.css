@@ -9,6 +9,7 @@ color: bisque;
     align-items: center;
     justify-content: space-between;
     color: bisque;
+    background-color: brown;
     top: 0;
     left: 0;
     width: 100%;
@@ -21,7 +22,6 @@ color: bisque;
     color: burlywood;
     height: 200px;
     width: 200px;
-    top:60px;
 
 }
 .badge{
@@ -37,5 +37,6 @@ color: bisque;
     background-color: blue;
     height: 50px;
     width: 50px;
+    bottom: 0px;
     right: 0;
 }
